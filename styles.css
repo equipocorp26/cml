@@ -1,0 +1,232 @@
+body {
+  background-image: url("images/background.png");
+}
+.bg-grey-cml,
+.table-cml > tbody,
+.chat-body {
+  background-color: #cbced7;
+}
+.bg-blue-dark-cml,
+.table-cml > thead,
+.item-people-chat{
+  background-color: #1e3a92;
+}
+.bg-red-cml {
+  background-color: #963947;
+}
+.text-blue-dark-cml {
+  color: #1e3a92;
+}
+.text-red-cml {
+  color: #963947;
+}
+.nav-pills .nav-link.active,
+.nav-pills .show > .nav-link {
+  color: #fff;
+  background-color: #1e3a92;
+}
+.nav-pills .nav-link {
+  border-radius: 3px;
+}
+.tab-content {
+  background-color: #cbced7;
+  padding: 3rem;
+  border-radius: 3px;
+}
+.nav-link {
+  color: #cbced7;
+}
+.nav-link:focus,
+.nav-link:hover {
+  color: #ffffff;
+}
+.form-control {
+  border-radius: 0px;
+}
+.btn-check:active + .btn-outline-primary,
+.btn-check:checked + .btn-outline-primary,
+.btn-outline-primary.active,
+.btn-outline-primary.dropdown-toggle.show,
+.btn-outline-primary:active {
+  color: #fff;
+  background-color: #1e3a92;
+  border-color: #1e3a92;
+}
+
+.btn-outline-primary {
+  color: #1e3a92;
+  border-color: #1e3a92;
+}
+.btn-outline-primary:hover {
+  background-color: #1e3a92;
+  border-color: #1e3a92;
+}
+.btn {
+  border-radius: 3px;
+}
+.btn-success {
+  background-color: #1d9948;
+  border-color: #1d9948;
+}
+.btn-primary {
+  background-color: #1e3a92;
+  border-color: #1e3a92;
+}
+.btn-primary:hover {
+  background-color: #192f77;
+  border-color: #192f77;
+}
+.btn-primary:active {
+  background-color: #192f77;
+  border-color: #192f77;
+}
+.btn-danger {
+  background-color: #963947;
+  border-color: #963947;
+}
+.btn-danger:hover {
+  background-color: #802f3b;
+  border-color: #802f3b;
+}
+.btn-danger:active {
+  background-color: #802f3b;
+  border-color: #802f3b;
+}
+.table-cml {
+  border-radius: 3px;
+}
+.table-cml > thead {
+  color: #ffffff;
+}
+.jsmartable-collapse > i {
+  color: #ffffff !important;
+}
+.table-col-cml {
+  background-color: #1e3a92 !important;
+  color: #fff;
+  text-align: center;
+}
+.label-form-cml {
+  height: 38px;
+  display: block;
+  width: 100%;
+  padding: 0.375rem 0.75rem;
+  font-size: 1rem;
+  font-weight: 400;
+  color: #212529;
+  background-color: #1e3a92;
+  background-clip: padding-box;
+  border: 1 px solid #1e3a92;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  color: #fff;
+  text-align: center;
+  appearance: none;
+  transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out
+}
+.box-icon-movil {
+  width: 56px;
+  height: 56px;
+  position: relative;
+  margin-top: 20px;
+  border-radius: 3px;
+  background-color: #ffffff;
+  cursor: pointer;
+  color: #1e3a92;
+}
+.box-icon-movil:active {
+  background-color: #1e3a92;
+  color: #ffffff;
+}
+.box-icon-movil > i {
+  position: absolute;
+  top: 22%;
+  left: 22%;
+  font-size: 2rem;
+}
+.text-sidebar-movil
+{
+  font-size: .5rem;
+}
+.btn-toggle-movil-menu
+{
+  position: fixed;
+  top: 10px;
+  left: 10px;
+  z-index: 11;
+}
+#sidebar-movil
+{
+  position: fixed;
+  left: -100%;
+  transition: .15s;
+  display: none;
+}
+.card-submenu-movil
+{
+  position: fixed;
+  bottom: -100%;
+  transition: .15s;
+}
+/* Chat styles */
+::-webkit-scrollbar {
+  width: 5px;
+}
+
+::-webkit-scrollbar-track {
+  width: 5px;
+  background: #f5f5f5;
+}
+
+::-webkit-scrollbar-thumb {
+  width: 1em;
+  background-color: #ddd;
+  outline: 1px solid slategrey;
+  border-radius: 1rem;
+}
+.chat-online {
+  color: #34ce57
+}
+
+.chat-offline {
+  color: #e4606d
+}
+
+.chat-messages {
+  display: flex;
+  flex-direction: column;
+  max-height: 480px;
+  overflow-y: scroll
+}
+
+.chat-message-left,
+.chat-message-right {
+  display: flex;
+  flex-shrink: 0
+}
+
+.chat-message-left {
+  margin-right: auto
+}
+
+.chat-message-right {
+  flex-direction: row-reverse;
+  margin-left: auto
+}
+.item-people-chat
+{
+  color: white;
+}
+.you-message {
+  background-color: #1e3a92!important;
+  color: #ffffff;
+}
+.other-message{
+  background-color: #cbced7!important;
+}
+/* store */
+.card-item-store:hover{
+  transition: background-color .2s ease-in-out,color .2s ease-in-out;
+  background-color: #1e3a92;
+  color: #ffffff;
+}
