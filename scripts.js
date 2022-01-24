@@ -21,4 +21,12 @@ function toggleSidebarMovilListItems(value)
 $(function(){
     var gallery = $('.gallery a').simpleLightbox({navText:    ['&lsaquo;','&rsaquo;']});
 });
+
+$(document).ready(function(){
+    $(".owl-carousel").owlCarousel({
+        loop:true,
+        items:1,
+        center:true
+    })
+  });
     
